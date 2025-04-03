@@ -37,7 +37,7 @@ export default function Intergration() {
     <>
       <div className="flex flex-col gap-5 h-auto w-full bg-sky-100 p-18 text-center justify-center items-center  ">
         <h1 className="font-medium text-blue-400 md:text-3xl">Integration</h1>
-        <h1 className="font-bold text-2xl  md:text-6xl">Integrated with the tools you know and love</h1>
+        <h1 className="font-bold text-3xl  md:text-6xl">Integrated with the tools you know and love</h1>
         <p className="md:text-2xl">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
           mollitia aut nobis, deleniti pariatur sint.

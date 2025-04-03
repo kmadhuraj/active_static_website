@@ -10,11 +10,11 @@ export default function Footer() {
             <h2 className="text-xl  font-semibold mb-2">
               Subscribe to our newsletter
             </h2>
-            <div className="flex w-80 ms:w-[100px]  md:w-96  lg:w-72 p-4 bg-white rounded-[50px]">
+            <div className="flex w-64 sm:w-80  md:w-96  lg:w-72 p-4 bg-white rounded-[50px]">
               <input
                 type="email"
                 placeholder="Enter your email"
-                className="flex-grow p-2 lg:w-40 outline-none  text-black "
+                className="flex-grow p-2  w-20 lg:w-40 outline-none  placeholder:text-sm md:placeholder:text-sm  text-black "
                 
               />
               <button className="bg-purple-600 rounded-[50px] text-white px-4 ">

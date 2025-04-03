@@ -27,13 +27,13 @@ export default function Testemonial() {
           <h1 className=" font-bold  text-3xl  md:text-4xl">What people say about Active</h1>
         </div>
 
-        <div className="flex flex-col gap-5">
+        <div className="flex flex-col mb-12 gap-5">
           <TestemonialCard testimonial={testimonialList} />
         </div>
 
-        <div>
+        {/* <div>
           <ActionBar></ActionBar>
-        </div>
+        </div> */}
       </div>
     </>
   );
