@@ -24,8 +24,8 @@ export default function HowItWorks() {
       <div className="flex justify-center items-center  bg-[#211062]">
         <div className="flex flex-col justify-center items-center ">
           <div className="flex flex-col w-80 sm:w-96 md:w-xl  lg:w-full justify-center text-center items-center h-40  text-white">
-            <p className=" text-sm">How It Works</p>
-            <h1 className="font-bold text-3xl">
+            <p className=" text-sm md:text-xl">How It Works</p>
+            <h1 className="font-bold text-3xl  md:text-4xl">
               Being social and getting leads has never been easier
             </h1>
           </div>

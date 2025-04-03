@@ -35,7 +35,7 @@ export default function Feature() {
           </div>
         </div>
 
-        <div className="flex flex-col items-center text-center bg-yellow-500 w-full max-w-7xl p-10 gap-6">
+        <div className="flex flex-col items-center text-center w-full max-w-7xl p-10 gap-6">
         <h1 className="font-bold text-3xl md:text-5xl xl:text-6xl">
           Let's grow your social media presence
         </h1>
@@ -44,7 +44,7 @@ export default function Feature() {
         </p>
 
         {/* Responsive Cards Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 w-full max-w-7xl">
+        <div className="grid gap-10 md:gap-12 lg:gap-14 xl:gap-16 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5, 3xl:grid-cols-6, 4xl:grid-cols-6 w-full max-w-7xl">
           {cardsList.map((card, index) => (
             <Card
               key={index}

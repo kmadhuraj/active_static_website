@@ -10,6 +10,8 @@ import HowItWorks from "./HowItWorks";
 import Pricing from "./Pricing";
 import Testemonial from "./Testemonial";
 import ActionBar from "./ActionBar";
+import Faq from "./Faq";
+import Footer from "./Footer";
 export default function Hero() {
   return (
     <>
@@ -65,7 +67,13 @@ export default function Hero() {
           <Testemonial></Testemonial>
         </div>
       </div>
-      <div></div>
+      <div className="p-10">
+        <Faq></Faq>
+      </div>
+
+      <div>
+        <Footer></Footer>
+      </div>
     </>
   );
 }

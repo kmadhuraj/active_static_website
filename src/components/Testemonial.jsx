@@ -24,7 +24,7 @@ export default function Testemonial() {
       <div className="flex flex-col gap-5 items-center">
         <div className="text-center flex items-center justify-center flex-col  w-80 sm:w-96 md:w-xl  lg:w-full ">
           <h1 className="text-lg font-bold text-blue-400">Testemonial</h1>
-          <h1 className="text-2xl font-bold">What people say about Active</h1>
+          <h1 className=" font-bold  text-3xl  md:text-4xl">What people say about Active</h1>
         </div>
 
         <div className="flex flex-col gap-5">

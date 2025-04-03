@@ -3,32 +3,41 @@ import PricingCard from "./cards/PricingCard";
 export default function Pricing() {
   const PricingCardList = [
     {
-      title: "wcdch",
-      desc: "fbwagbwsdvgjv wvjv whbwf  dhbwf iuhuewe dhbf ",
-      listItem: ["hjvdjhvw", "wehd", "edjvdgv"],
-      className: " bg-white",
+      title: "Free",
+      desc: "Unlimited lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doliqua. ",
+      listItem: ["Sed ut pespiciatis unde omnis", "Sed ut pespiciatis unde omnis"],
+      button:"Start for free",
+      btnClassName:"bg-black text-white",
+      className: " bg-white text-black",
+
+
     },
     {
-      title: "dhgygud",
-      desc: "whBFHBIWWF EWFHW QSIHUWE VIHFBW W DHODWEK ",
-      listItem: ["qvggggggg", "wehd", "edjvdgv"],
-      className: "bg-white",
+      title: "Pay as you go",
+      desc: "Launch your lorem for $49/molorem ipsum dolor sit amet, consectetur adipiscing. ",
+      listItem: ["Sed ut pespiciatis unde omnis", "Sed ut pespiciatis unde omnis"],
+      button:"Upgrade now",
+      btnClassName:"bg-black text-white",
+      className: "bg-white text-black",
     },
     {
-      title: "kfbbehbhebh",
-      desc: "hbfhbk bfikwf wijfiwj  wquygdu ygyu o3 f igwugy qweydgyfdwf qgfu dqige ",
-      listItem: ["xxxxxxxx", "wehd", "edjvdgv"],
+      title: "Enteprice",
+      desc: "Custom-built  lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doliqua.",
+      listItem: ["Sed ut pespiciatis unde omnis", "Sed ut pespiciatis unde omnis", "Sed ut pespiciatis unde omnis","davjhwvemhfwhjvwhfvwfjhvj","dhshvhjvfjhjvjgv"],
+      button:"Contact us",
+      btnClassName:"bg-white text-black",
       className: "bg-black text-white",
     },
   ];
+
   return (
     <>
       <div className="flex flex-col p-10  gap-5 items-center text-center bg-[#5228f5]">
         <div className="flex flex-col w-80 sm:w-96 md:w-xl  lg:w-full items-center gap-5 text-white">
-          <h1 className="font-bold text-2xl">
+          <h1 className="font-bold text-3xl  md:text-4xl">
             Pricing for all kind of businesses
           </h1>
-          <p className="font-thin">
+          <p className="font-thin text-xl">
             ewygdvdwuvdwevduvdqduygqdyudhbqhduydgwhd Lorem ipsum dolor sit amet,
             consectetur adipisicing elit. Vero, explicabo!
           </p>
