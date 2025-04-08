@@ -11,7 +11,7 @@ export default function PricingCard({pricing}) {
            {price.desc}
          </p>
          <Button className={price.btnClassName}>{price.button}</Button>
-         <p className="font-medium mb-1 w-full h-full">whats included</p>
+         <p className="font-medium text-start  w-full ">whats included</p>
          
             <ul className="list-disc pl-5">
             {price.listItem.map((list,idx)=>(

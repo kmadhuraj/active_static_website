@@ -5,7 +5,7 @@ export default function Pills({ pills }) {
     <>
       {pills.map((pill, index) => (
         <div key={index} className="h-[81px] w-[200px] bg-white rounded-[50px] p-[20px]">
-          <img src={pill.img} alt=" pills img" />
+          <img  className='w-60 h-10' src={pill.img} alt=" pills img" />
         </div>
       ))}
     </>

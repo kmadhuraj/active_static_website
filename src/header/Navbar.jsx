@@ -25,7 +25,7 @@ export default function Navbar() {
 
       <div className="hidden lg:flex items-center gap-5">
         <a href="">Sign In</a>
-        <Button>Get Started</Button>
+        <Button className="text-white">Get Started</Button>
         {/* <button className="bg-blue-500 text-white px-4 py-2 rounded-lg">Get started</button> */}
       </div>
 
