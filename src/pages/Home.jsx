@@ -5,7 +5,7 @@ export default function Home() {
  
   return (
     <>
-        <div>
+        <div style={{fontFamily:"Work Sans,sans-serif"}} className=''>
             <Hero></Hero>
         </div>
 
